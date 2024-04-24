@@ -1,0 +1,9 @@
+Tests:
+ upstream-tests
+Depends:
+ git,
+ python3-all,
+ python3-jsonschema,
+ python3-pytest,
+ @,
+Restrictions: allow-stderr

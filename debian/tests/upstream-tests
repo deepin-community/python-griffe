@@ -1,0 +1,30 @@
+#!/bin/sh
+
+set -e -u
+
+cp -a docs tests "${AUTOPKGTEST_TMP}"
+
+PYTEST_OPTIONS="-k \
+not test_editables_file_handling \
+and not test_load_git \
+and not test_load_git_errors \
+and not test_meson_python_file_handling \
+"
+
+for py3vers in $(py3versions -s); do
+    echo
+    echo "***************************"
+    echo "*** Testing with ${py3vers}"
+    echo "***************************"
+    echo
+    cd ${AUTOPKGTEST_TMP} && \
+        echo "Content of current working folder:\n" && \
+        ls -la && \
+        echo "Running tests...\n" && \
+        ${py3vers} -m pytest -sv "${PYTEST_OPTIONS}" && \
+        rm -rf .pytest_cache || exit 1
+done
+
+echo
+
+exit 0
