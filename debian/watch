@@ -1,0 +1,10 @@
+# watch file for python-griffe
+
+version=4
+
+opts="mode=git, \
+      compression=gz, \
+      uversionmangle=s/(\d)[_\.\-\+]?((RC|rc|pre|dev|beta|alpha)\.?\d*)$/$1~$2/, \
+      dversionmangle=s/\+ds(\.?\d+)?$//" \
+https://github.com/mkdocstrings/griffe.git \
+      refs/tags/@ANY_VERSION@

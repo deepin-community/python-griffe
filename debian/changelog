@@ -1,5 +1,252 @@
-template-repository (1.0-1) unstable; urgency=medium
+python-griffe (0.44.0-1) unstable; urgency=medium
 
-  * Initial release
+  * [149a132] New upstream version 0.44.0
+  * [8a80095] d/control: Bump Standards-Version to 4.7.0
+    No further changes needed.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 21 Apr 2024 08:13:34 +0200
+
+python-griffe (0.42.1-1) unstable; urgency=medium
+
+  * [e35925a] New upstream version 0.42.1
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 23 Mar 2024 17:32:25 +0100
+
+python-griffe (0.42.0-1) unstable; urgency=medium
+
+  * [c60a6f2] New upstream version 0.42.0
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 16 Mar 2024 17:12:09 +0100
+
+python-griffe (0.41.3-1) unstable; urgency=medium
+
+  * [b29ce12] New upstream version 0.41.3
+  * [c72df55] d/copyright: Update email contact data
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 09 Mar 2024 20:52:42 +0100
+
+python-griffe (0.40.0-1) unstable; urgency=medium
+
+  * [670946f] New upstream version 0.40.0
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 03 Feb 2024 23:31:19 +0100
+
+python-griffe (0.39.1-1) unstable; urgency=medium
+
+  * [5f38a9d] New upstream version 0.39.1
+  * [d08409f] d/copyright: Update year data
+  * [78755cf] d/rules: Ignore one more upstream test
+  * [8cdfd8e] autopkgtest: Ignore and not test_meson_python_file_handling
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 20 Jan 2024 08:31:27 +0100
+
+python-griffe (0.38.0-1) unstable; urgency=medium
+
+  * [a312023] New upstream version 0.38.0
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Thu, 23 Nov 2023 12:39:17 +0000
+
+python-griffe (0.36.9-1) unstable; urgency=medium
+
+  * [d2e9d6b] New upstream version 0.36.9
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Wed, 01 Nov 2023 06:44:04 +0100
+
+python-griffe (0.36.2-1) unstable; urgency=medium
+
+  * [c04805c] New upstream version 0.36.2
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Thu, 14 Sep 2023 19:18:00 +0530
+
+python-griffe (0.36.0-1) unstable; urgency=medium
+
+  * [252dd81] New upstream version 0.36.0
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Mon, 04 Sep 2023 16:57:13 +0530
+
+python-griffe (0.35.2-1) unstable; urgency=medium
+
+  * [615969e] d/watch: Correct misspelled word compression
+  * [ddbd43b] New upstream version 0.35.2
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Tue, 29 Aug 2023 19:22:46 +0530
+
+python-griffe (0.35.1-1) unstable; urgency=medium
+
+  * [8e6fdb8] d/watch: Enforce usage of *.tar.gz tarball
+  * [87d8131] New upstream version 0.35.1
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 27 Aug 2023 19:04:39 +0530
+
+python-griffe (0.33.0-1) unstable; urgency=medium
+
+  * [5cec86e] New upstream version 0.33.0
+  * [c47adf9] d/rules: Add target override_dh_clean
+    (Closes: #1047221)
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 19 Aug 2023 07:07:31 +0200
+
+python-griffe (0.32.3-1) unstable; urgency=medium
+
+  * [6f36e26] New upstream version 0.32.3
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 29 Jul 2023 08:05:04 +0200
+
+python-griffe (0.32.1-1) unstable; urgency=medium
+
+  * [7fd7bb1] New upstream version 0.32.1
+  * [13c3103] d/control: Add package git to Build-Depends
+  * [53e7ae4] autopkgtests: Add the git package to Depends
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 15 Jul 2023 18:52:41 +0200
+
+python-griffe (0.29.1-1) unstable; urgency=medium
+
+  * [25869ba] New upstream version 0.29.1
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Fri, 23 Jun 2023 17:30:37 +0200
+
+python-griffe (0.29.0-3) unstable; urgency=medium
+
+  * [3bf04a1] d/t/control: Add missing Depends python3-jsonschema
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 18 Jun 2023 08:02:54 +0200
+
+python-griffe (0.29.0-2) unstable; urgency=medium
+
+  * Upload to unstable
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 17 Jun 2023 13:01:50 +0200
+
+python-griffe (0.29.0-1) experimental; urgency=medium
+
+  * [e6d2de3] New upstream version 0.29.0
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 28 May 2023 17:00:21 +0200
+
+python-griffe (0.28.1-1) experimental; urgency=medium
+
+  * [c767623] New upstream version 0.28.1
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Wed, 24 May 2023 09:30:45 +0200
+
+python-griffe (0.27.1-1) experimental; urgency=medium
+
+  * [5e8c5c5] d/gbp.conf: Add some file types to exclude
+  * [df21065] New upstream version 0.27.1
+  * [e36488a] d/control: Adjust/add build depending packages
+  * [1ccab54] d/rules: Use PDM_BUILD_SCM_VERSION for version inflating
+  * [678e91c] d/rules: Use PYBUILD_{AFTER,BEFORE}_TEST
+  * [d64a5e0] autopkgtest: Tune the test preparation
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Fri, 28 Apr 2023 19:52:44 +0200
+
+python-griffe (0.25.5-1) unstable; urgency=medium
+
+  * [f5655ef] New upstream version 0.25.5
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 19 Feb 2023 11:15:32 +0100
+
+python-griffe (0.25.4-1) unstable; urgency=medium
+
+  * [213af51] New upstream version 0.25.4
+  * [5d7ec97] d/copyright: Update year data
+  * [80590b6] d/rules: Add test_setuptools_file_handling back to tests
+  * [cdf8c0b] autopkgtest: Re-add test_setuptools_file_handling here too
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 22 Jan 2023 16:42:14 +0100
+
+python-griffe (0.25.3-1) unstable; urgency=medium
+
+  * [ac86768] New upstream version 0.25.3
+  * [a000248] d/control: Bump Standards-Version to 4.6.2
+    No further changes needed.
+  * [9bf7f41] d/control: Add BuildProfileSpecs
+    (Closes: #1027661)
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Thu, 05 Jan 2023 22:37:47 +0100
+
+python-griffe (0.25.0-1) unstable; urgency=medium
+
+  * [a637278] New upstream version 0.25.0
+  * [b6cd3a1] d/rules: Add two more tests to ignore
+  * [ad43fce] autopkgtest: Ignore the two tests here too
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Tue, 13 Dec 2022 21:58:49 +0100
+
+python-griffe (0.24.1-1) unstable; urgency=medium
+
+  * [00c61fa] New upstream version 0.24.1
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Fri, 25 Nov 2022 21:51:30 +0100
+
+python-griffe (0.24.0-1) unstable; urgency=medium
+
+  * [4434481] New upstream version 0.24.0
+  * [92bdae7] d/control: Add new required package to Build-Depends
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Mon, 14 Nov 2022 19:56:07 +0100
+
+python-griffe (0.23.0-1) unstable; urgency=medium
+
+  * [928de28] New upstream version 0.23.0
+  * [ecd6b41] d/{control,rules}: Move over to dh-sequence-python3
+  * [cb6de00] d/rules: Remove unneeded license files after install
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 30 Oct 2022 15:55:40 +0100
+
+python-griffe (0.22.2-1) unstable; urgency=medium
+
+  * [a0f9d38] New upstream version 0.22.2
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Wed, 28 Sep 2022 17:32:51 +0200
+
+python-griffe (0.22.1-1) unstable; urgency=medium
+
+  * [0272ea0] New upstream version 0.22.1
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Mon, 12 Sep 2022 19:37:43 +0200
+
+python-griffe (0.22.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * [36a9234] Drop patch to switch from pdm-pep517 to poetry.
+
+ -- Boyuan Yang <byang@debian.org>  Thu, 18 Aug 2022 15:18:40 -0400
+
+python-griffe (0.22.0-1) unstable; urgency=medium
+
+  * [8dd8725] New upstream version 0.22.0
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 02 Jul 2022 08:10:19 +0200
+
+python-griffe (0.21.0-1) unstable; urgency=medium
+
+  * [5c1405b] New upstream version 0.21.0
+  * [643a103] d/rules: Ignore some added git tests
+  * [2f10565] autopkgtest: Ignore git tests here too
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 26 Jun 2022 09:36:02 +0200
+
+python-griffe (0.20.0-1) unstable; urgency=medium
+
+  * [56f1303] New upstream version 0.20.0
+  * [66d6a65] d/rules: Remove PYBUILD_AFTER_INSTALL variable
+  * [42112e0] autopkgtest: Adding first working setup
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Mon, 06 Jun 2022 09:32:26 +0200
+
+python-griffe (0.19.3-1) unstable; urgency=medium
+
+  * [07402f2] New upstream version 0.19.3
+  * [84b63a7] d/rules: Enable running the internal tests
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 29 May 2022 20:03:52 +0200
+
+python-griffe (0.19.1-1) unstable; urgency=medium
+
+  * [1dd881e] New upstream version 0.19.1
+  * [a940da1] First and basic Debianization
+    (Closes: #1011192)
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Wed, 18 May 2022 13:57:32 +0200
